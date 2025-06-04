@@ -1,6 +1,8 @@
 # Tic-Tac-Toe Game
 A beginner-friendly Tic Tac Toe project to practice DOM manipulation, game logic, and responsive web design using HTML, CSS, and JavaScript.
 
+## 📸 Screenshot
+![Game Screenshot](Screenshot.png)
 
 ## ✅ Features
 
