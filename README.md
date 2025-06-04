@@ -17,3 +17,7 @@ A beginner-friendly Tic Tac Toe project to practice DOM manipulation, game logic
 - HTML
 - CSS
 - JavaScript
+
+## 🚀 Live Demo
+
+[Click here to play the game](https://tannuu29.github.io/tic-tac-toe-js/)
