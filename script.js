@@ -63,11 +63,13 @@ const showWinner = (winner)=> {
 
     msgContainer.classList.remove("hide");
     disableBoxes();
+    count = 0;
 }
 const drawSituation = ()=> {
     msg.innerText = `It's a Draw. Try Again!`;
     msgContainer.classList.remove("hide");
     disableBoxes();
+    count = 0;
 }
 const checkWinner = ()=> {
     for(let pattern of winPatterns) {
@@ -80,7 +82,7 @@ const checkWinner = ()=> {
             if(pos1Val == pos2Val && pos2Val == pos3Val) {
                 showWinner(pos1Val);
             }
-            else if(count == 9){ //draw
+            else if(count == 9){ //draw condition
                 drawSituation();
             }
         }
